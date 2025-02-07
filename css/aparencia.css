@@ -1,0 +1,159 @@
+/* Aparência geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3e4f1; /* Azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas de texto */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2a4d84; /* Azul médio */
+    color: #ffffff; /* Rosa suave */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Rosa suave */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff; /* Rosa suave no hover */
+    color: #2a4d84; /* Azul médio no hover */
+    border-radius: 5px;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+/* Seções do conteúdo */
+section {
+    background-color: #ffffff; /* Branco */
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos dentro das seções */
+section h2 {
+    color: #2a4d84; /* Azul médio */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Listas ordenadas */
+ol {
+    margin-left: 30px;
+    font-size: 1.1em;
+}
+
+ol li {
+    margin-bottom: 12px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #1c3d5d; /* Azul escuro */
+    color: #ffffff; /* Rosa suave */
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+#pc2 img,
+#ps5 img,
+#xboxXS img,
+#psp img,
+#dsi img,
+#dds img,
+#PSVita img,
+#Switch img {
+    width: 60%;  /* Reduz para 60% do tamanho original */
+    max-width: 400px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção original */
+    display: block; /* Evita espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+
+
+}
+#xbox_360 img,
+#n64 img,
+#nwii img,
+#ps2 img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Ajustes para telas pequenas */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        margin: 10px 0;
+    }
+    #pc2 img,
+#ps5 img,
+#xboxXS img,
+#psp img,
+#dsi img,
+#dds img,
+#PSVita img,
+#Switch img {
+    width: 90%;  /* Reduz para 60% do tamanho original */
+    max-width: 450px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção original */
+    display: block; /* Evita espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+
+
+}
+}
+
+
+
+
+
